@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-image: url("https://images.unsplash.com/photo-1491904768633-2b7e3e7fede5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  /* width: 100%; */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.img img{
+width: 50px;
+height: 50px;
+border-radius: 40px;
+}
