@@ -5,7 +5,7 @@ body {
 
 .container {
   background-image: url("https://images.unsplash.com/photo-1491904768633-2b7e3e7fede5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fG1vdW50YWluc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
-  /* width: 100%; */
+
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +28,6 @@ body {
 }
 
 .list {
-  /* text-decoration: underline; */
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -37,13 +36,12 @@ body {
 
 .list li {
   border-bottom-style: ridge;
-  /* border-bottom-style: solid; */
 }
 
 .img1 img {
   padding: 2px;
   width: 50px;
-  /* height: 50px; */
+
   border-radius: 40px;
 
   background-color: rgb(88, 87, 87);
@@ -76,7 +74,6 @@ body {
 }
 
 .list1 {
-  /* text-decoration: underline; */
   color: rgb(29, 28, 28);
   display: flex;
   justify-content: space-evenly;
@@ -85,48 +82,39 @@ body {
 
 .list1 li {
   border-bottom-style: ridge;
-  /* border-bottom-style: solid; */
 }
 
 .second-corousel {
   display: flex;
-  /* justify-content: space-evenly; */
 }
 
 .second2-corousel {
   width: 100%;
-  /* margin: 0px 100px 0px 100px; */
+
   margin-top: -30px;
   background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdW50YWlufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding: 0px 100px 0px 100px; */
 }
 
-.outer-bottom{
+.outer-bottom {
   background: rgba(65, 66, 65, 1.6);
   opacity: 70%;
 }
 
 .bottom {
-  /* width: 100%; */
+  margin: 226px auto 0px auto;
 
-  
-  margin: 238px auto 0px auto;
-  /* height: 200px; */
-  
-  /* background-color: rgb(124, 120, 120); */
   display: flex;
   justify-content: space-evenly;
   width: 70%;
-  
 }
 
 .bottom img {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .second2-corousel .number h1 {
@@ -151,10 +139,8 @@ body {
 }
 
 .second2-corousel .para {
-  /* margin-top: -100px; */
   margin: 0px 100px 0px 160px;
-  /* width: 100%; */
-  /* text-align: center; */
+
   justify-content: center;
 }
 .second2-corousel .para p {
@@ -164,26 +150,122 @@ body {
 }
 
 .dots {
-  /* absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2 */
-  position: absolute;
-  z-index: 30;
   display: flex;
   gap: 0.75rem;
-  transform: translateX(-50%);
-  bottom: 5px;
-  left: 50%;
-  color: blue;
+
+  width: fit-content;
+  margin: auto;
+  opacity: 70%;
 }
 
 .dots button {
-  width: 3rem;
-  height: 3rem;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
-  color: blue;
 }
 
-
-.second2-carousel-para{
+.second2-carousel-para {
   width: 80%;
   margin: auto;
+}
+
+.top-div .number h1 {
+  font-size: 100px;
+
+  color: rgb(80, 80, 95);
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-div .heading h1 {
+  margin-top: 100px;
+
+  color: rgb(35, 35, 63);
+  font-size: 30px;
+}
+
+.top-div .para p {
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: rgb(80, 80, 95);
+}
+
+.top-div .para {
+  margin-left: 130px;
+}
+
+.top-div {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.middle-div {
+  background-color: rgb(7, 7, 34);
+  display: flex;
+  margin-top: -60px;
+  /* margin: auto; */
+}
+
+.heading1 h1 {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading1 {
+  background-color: rgb(68, 65, 65);
+  margin-left: 200px;
+  width: 9%;
+  text-align: center;
+}
+
+.heading2 h1 {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading2 {
+  color: rgb(68, 65, 65);
+  margin-left: 10px;
+  width: 9%;
+  text-align: center;
+}
+
+.sub-middle-div {
+  background: url("https://media.istockphoto.com/id/1084564042/photo/birds-flock-flying-over-river-and-hills-on-blue-sky-on-sunset.webp?b=1&s=170667a&w=0&k=20&c=xrUwVZiekJGVA1RCSwtiY9cso3lWFydp9jZ_X2o62qM=");
+  margin-top: -23px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-middle-div .inner-div {
+  background-color: aliceblue;
+
+  width: 20%;
+}
+
+.both-div {
+  display: flex;
+}
+
+.left-div ul {
+  list-style: none;
+}
+
+.right-div ul {
+  list-style: none;
+}
+
+.left-div li {
+  font-size: 12px;
+}
+
+.right-div li {
+  font-size: 12px;
+}
+
+.inner-div {
+  margin: 0px 0px 0px 240px;
 }
